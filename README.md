@@ -1,14 +1,14 @@
 # A toolset for unsupervised assessment of learning outcomes
-
-Mahinda Mailagaha Kumbure, Jan Stoklasa, Pasi Luukka, Anssi Tarkiainen, Ari Jantunen [Business School, LUT University, Finland]._
+Mahinda Mailagaha Kumbure, Jan Stoklasa, Pasi Luukka, Anssi Tarkiainen, Ari Jantunen (Business School, LUT University, Finland)
 
 ## Overview
-This MATLAB code and the data are associated with the paper: "Kumbure, M. M., Tarkiainen, A., Stoklasa, J., Luukka, P., and Jantunen, A. (2023) _Causal maps in the analysis and unsupervised assessment of the development of expert knowledge: quantification of the learning effects for knowledge management purposes_ in the Expert Systems with Applications journal." Details on the code and tools implemented are presented in the paper "A toolset for unsupervised assessment of learning outcomes" submitted to Software Impacts journal.
+The MATLAB code and the data are presented in the paper "A toolset for unsupervised assessment of learning outcomes" submitted to Software Impacts journal.
+The code and data are associated with the paper: "Kumbure, M. M., Tarkiainen, A., Stoklasa, J., Luukka, P., and Jantunen, A. (2023) [_Causal maps in the analysis and unsupervised assessment of the development of expert knowledge: quantification of the learning effects for knowledge management purposes_](https://doi.org/10.1016/j.eswa.2023.121232) in the Expert Systems with Applications journal." 
 
 Detailed descriptions of each method and analysis can be found in the paper. All calculations in the analysis are based on MATLAB and Excel (writing & reading files, specifically).
 
 ## Data
-The foloder **Maps-data** in the "data" contains the dataset used in study. It includes 71 maps data (in the beginning [71] and at the end [71]) in the form of adjacency matrices collected from cognitive maps over 16 groups. In each group, the number of students varies from 3 to 5. Each adjacency matrices representing the cognitive maps is in the size of 41x41.
+The foloder **Maps-data** in the "data" contains the dataset used in study. It includes 71 maps data (in the beginning (71) and at the end (71)) in the form of adjacency matrices collected from cognitive maps over 16 groups. In each group, the number of students varies from 3 to 5. Each adjacency matrices representing the cognitive maps is in the size of 41x41.
 
 ## Distance ratio-based assessment
 This analysis is based on the  calculation of the distance ratios (DRs) from the individual-level maps (from those within the group) to the group-level maps considering the whole data sample. This analysis can be found in the folder **DR_individuals_group.** In that folder, there two separate sub-folders, one for the beginning maps (**DR beginning maps**) and the other for the end maps (**DR end maps**). In each case, we need to find DRs for each group, in fact you will see Matlab files for each group. Included MATLAB files:
@@ -77,6 +77,4 @@ in the total frequency of use of the strategic concepts (sub-figure 3).
 These plots can be found in Figure 1 in the paper. 
 
 ## How to runthe code and produce results
-The first run of the codes should be the calculation of distance ratios from the individual-level maps to the group-level maps considering the whole data sample. However, running this code has been commented on and kept in the latter part of the master `run` file for simplicity in the computation because this may take several minutes. These distance ratio results have been saved in "data" because they are used in the subsequent analyses. 
-
-All other files are called in the master `run` file, as they simply produce the results presented in the paper. It is worth mentioning that in this study, analyses are connected - one code's output is used as an input for another code. Therefore needed result files are stored in "data" and loaded in the corresponding codes. 
+The first run of the codes should be the calculation of distance ratios from the individual-level maps to the group-level maps considering the whole data sample. Running this code may take several minutes. These distance ratio results have already been saved in "data" because they are used in the subsequent analyses. This is because of showing the calculation of other analyses. In this study, analyses are connected - one code's output is used as an input for another code. Therefore needed result files are stored in "data" and loaded in the corresponding codes. 
