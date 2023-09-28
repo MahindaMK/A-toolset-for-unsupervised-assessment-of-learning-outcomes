@@ -6,8 +6,6 @@ The MATLAB code and the data are presented in the paper: Kumbure, M. M., Stoklas
 
 Detailed descriptions of each method and analysis can be found in the paper [(Kumbure et al., 2023)](https://doi.org/10.1016/j.eswa.2023.121232). All calculations in the analysis are based on MATLAB and Excel (writing & reading files, specifically).
 
-The code and the data have also been published in Codeocean and which can be reached at https://doi.org/10.24433/CO.8588714.v1.
-
 ## Data
 The foloder **Maps-data** in the "data" contains the dataset used in study. It includes 71 maps data (in the beginning (71) and at the end (71)) in the form of adjacency matrices collected from cognitive maps over 16 groups. In each group, the number of students varies from 3 to 5. Each adjacency matrices representing the cognitive maps is in the size of 41x41.
 
@@ -79,3 +77,6 @@ These plots can be found in Figure 1 in the paper [(Kumbure et al., 2023)](https
 
 ## How to runthe code and produce results
 The first run of the codes should be the calculation of distance ratios from the individual-level maps to the group-level maps considering the whole data sample. Running this code may take several minutes. These distance ratio results have already been saved in "data" because they are used in the subsequent analyses. This is because of showing the calculation of other analyses. In this study, analyses are connected - one code's output is used as an input for another code. Therefore needed result files are stored in "data" and loaded in the corresponding codes. 
+
+The code and the data have also been published in Codeocean and which can be reached at https://doi.org/10.24433/CO.8588714.v1.
+
