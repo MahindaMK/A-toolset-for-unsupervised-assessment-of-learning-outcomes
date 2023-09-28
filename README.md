@@ -2,7 +2,7 @@
 A set of tools for evaluating the results and impacts of an educational event, employing cognitive maps as a model for representing cognitive structures or knowledge. 
 
 ## Overview
-The MATLAB code and the data are presented in the paper Kumbure, M. M., Stoklasa, J., Luukka, P., Tarkiainen, A. and Jantunen, A. (2023) _A toolset for unsupervised assessment of learning outcomes_ submitted to the Software Impacts journal.The code and data are associated with the paper: Kumbure, M. M., Tarkiainen, A., Stoklasa, J., Luukka, P., and Jantunen, A. (2023) [_Causal maps in the analysis and unsupervised assessment of the development of expert knowledge: quantification of the learning effects for knowledge management purposes_](https://doi.org/10.1016/j.eswa.2023.121232) in the Expert Systems with Applications journal.
+The MATLAB code and the data are presented in the paper: Kumbure, M. M., Stoklasa, J., Luukka, P., Tarkiainen, A. and Jantunen, A. (2023) _A toolset for unsupervised assessment of learning outcomes_ submitted to the Software Impacts journal.The code and data are associated with the paper: Kumbure, M. M., Tarkiainen, A., Stoklasa, J., Luukka, P., and Jantunen, A. (2023) [_Causal maps in the analysis and unsupervised assessment of the development of expert knowledge: quantification of the learning effects for knowledge management purposes_](https://doi.org/10.1016/j.eswa.2023.121232) in the Expert Systems with Applications journal.
 
 Detailed descriptions of each method and analysis can be found in the paper [(Kumbure et al., 2023)](https://doi.org/10.1016/j.eswa.2023.121232). All calculations in the analysis are based on MATLAB and Excel (writing & reading files, specifically).
 
